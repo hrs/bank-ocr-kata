@@ -8,9 +8,9 @@ class DigitParser
 
   def parse
     if parsed_value
-      Digit.new(parsed_value, block)
+      Digit.new(parsed_value)
     else
-      IllegibleDigit.new(block)
+      IllegibleDigit.new
     end
   end
 

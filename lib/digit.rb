@@ -1,9 +1,8 @@
 class Digit
-  attr_reader :source_block, :value
+  attr_reader :value
 
-  def initialize(value, source_block)
+  def initialize(value)
     @value = value
-    @source_block = source_block
   end
 
   def legible?

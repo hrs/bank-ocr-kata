@@ -11,7 +11,6 @@ describe "DigitParser" do
     digit = DigitParser.new(block).parse
 
     expect(digit.value).to eq(1)
-    expect(digit.source_block).to eq(block)
   end
 
   it "identifies an incorrectly formatted number as illegible" do
@@ -24,6 +23,5 @@ describe "DigitParser" do
     digit = DigitParser.new(block).parse
 
     expect(digit).not_to be_legible
-    expect(digit.source_block).to eq(block)
   end
 end
