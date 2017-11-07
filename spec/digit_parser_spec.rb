@@ -1,4 +1,4 @@
-require_relative "../digit_parser"
+require_relative "../lib/digit_parser"
 
 describe "DigitParser" do
   it "parses a correctly formatted number into a Digit" do

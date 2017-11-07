@@ -1,4 +1,4 @@
-require_relative "../entry_parser"
+require_relative "../lib/entry_parser"
 
 describe EntryParser do
   describe "#parse" do

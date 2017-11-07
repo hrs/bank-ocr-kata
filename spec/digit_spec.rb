@@ -1,4 +1,4 @@
-require_relative "../digit"
+require_relative "../lib/digit"
 
 describe Digit do
   describe "#to_s" do
