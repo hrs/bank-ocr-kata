@@ -1,6 +1,15 @@
 A partial implementation of the "Bank OCR" kata.
 
-### Some things I might do
+### What should I do with this?
+
+This is just a library, so there isn't anything executable in here. You can,
+however, run the tests:
+
+```
+$ rspec
+```
+
+### Some things I might do in the future, with a bit more time:
 
 For user story #3:
 
