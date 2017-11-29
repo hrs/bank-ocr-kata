@@ -1,4 +1,6 @@
-A partial implementation of the "Bank OCR" kata.
+A partial implementation (steps 1 and 2) of the ["Bank OCR" kata][].
+
+["Bank OCR" kata]: http://codingdojo.org/kata/BankOCR/
 
 ### What should I do with this?
 
@@ -14,7 +16,7 @@ $ rspec
 For user story #3:
 
 - Seems like it's about time to create an executable script. It should take in
-  one or more file paths and print the
+  one or more file paths and print the resulting findings.
 - Since we're dealing with multiple files, we might want to create an object
   that encapsulates a collection of entries corresponding to the contents of one
   file. Not sure about the right name in the problem domain... call it a `Page`,
